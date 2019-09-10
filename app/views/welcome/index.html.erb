@@ -1,0 +1,42 @@
+<h1>Q1</h1>
+<table>
+  <tr>
+    <th>No Food Meal</th>
+  </tr>
+
+  <% @q1s.each do |q1| %>
+    <tr>
+      <td><%= q1.name %></td>
+    </tr>
+  <% end %>
+</table>
+
+
+<h1>Q2</h1>
+<table>
+  <tr>
+    <th>Food</th>
+    <th>Meal#</th>
+  </tr>
+
+  <% @q2s.each do |q2| %>
+    <tr>
+      <td><%= q2.name %></td>
+      <td><%= q2.num %></td>
+    </tr>
+  <% end %>
+</table>
+
+<h1>Q3</h1>
+<table>
+  <tr>
+    <th>Food Head</th>
+    <th>other_food</th>
+  </tr>
+
+  <% @q3s.each do |q3| %>
+    <tr>
+      <td><%= q3 %></td>
+    </tr>
+  <% end %>
+</table>
